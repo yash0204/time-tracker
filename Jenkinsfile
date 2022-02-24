@@ -12,11 +12,11 @@ pipeline {
 		     }
                }
 		
-	       stage('Deploy') {
+	       stage('Deploy in Staging') {
  		     steps {
 			    echo 'Deploying in staging area'
 	             }
   		}
-	       
+
 	  }
-}	   
+}
